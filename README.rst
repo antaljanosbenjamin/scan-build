@@ -111,7 +111,7 @@ you need to pass the compiler wrappers manually. eg.: ``intercept-build
 original build command would have been ``make all`` only.)
 
 The 1. runs the analyzer right after the real compilation. So, if the build
-process removes removes intermediate modules (generated sources) the analyzer
+process removes intermediate modules (generated sources) the analyzer
 output still kept.
 
 The 2. and 3. generate the compilation database first, and filters out those
